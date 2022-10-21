@@ -54,8 +54,7 @@ spec:
     spec:
       containers:
         - name: web
-          #image: brunodalcas/kube-news:{{TAG}}
-          image: brunodalcas/kube-news:v1
+          image: brunodalcas/kube-news:{{TAG}}
           ports:
           - containerPort: 8080
           env: #verificar variáveis no dockerhub
